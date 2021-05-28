@@ -11,19 +11,11 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-  </div>
-
-  <div class="field">
-    <%= form.label :body %>
-    <%= form.text_field :body %>
-  </div>
-
-  <div class="field">
-    <%= form.label :user_id %>
-    <%= form.number_field :user_id %>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :body %>
+      <%= form.text_area :body, class: "form-control z-depth-1", id: "exampleFormControlTextarea6", rows: "3", placeholder: "Write something here..." %>
+    </div> 
   </div>
 
   <div class="actions">
