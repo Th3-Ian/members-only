@@ -16,3 +16,9 @@
 
  @import "bootstrap";
  @import "rails_bootstrap_forms";
+
+ .div-centered {
+    text-align: left; 
+    margin: auto; 
+    width: 200px;
+  }
